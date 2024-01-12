@@ -32,3 +32,5 @@ form.onsubmit = function(e){
     
 }
 
+inputWeight.oninput = () => AlertError.close();
+inputHeight.oninput = () => AlertError.close();
